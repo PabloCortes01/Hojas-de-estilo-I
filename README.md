@@ -17,3 +17,5 @@ p#segundo{}
 span .primero{}
 .primero.parte{ }
 ```
+
+**4. Refactoriza el código del archviovo css_repetido.html de modo que no aparezca código repetido**
