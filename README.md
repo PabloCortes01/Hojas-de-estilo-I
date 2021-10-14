@@ -6,6 +6,7 @@
 
 **3. Crea un fichereo html_selector.html y escribe el HTML que corresponda con los selectores css indicados en el enunciado. No hay una única respuesta válida.**
 
+```
 .primero{}
 p.primero{}
 section.primero{}
@@ -15,4 +16,4 @@ p#segundo{}
 .primero > span{ }
 span .primero{}
 .primero.parte{ }
-
+```
