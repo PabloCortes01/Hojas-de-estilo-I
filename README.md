@@ -18,4 +18,4 @@ span .primero{}
 .primero.parte{ }
 ```
 
-**4. Refactoriza el código del archviovo css_repetido.html de modo que no aparezca código repetido.**
+**4. Refactoriza el código del archvivo css_repetido.html de modo que no aparezca código repetido.**
