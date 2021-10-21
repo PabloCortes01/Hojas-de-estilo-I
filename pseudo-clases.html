@@ -22,8 +22,18 @@
   
   <!-- TODO: Establecer el fondo celeste (ligthblue) a los elementos del formulario cuando tengan el foco (clicked or active) -->
   <form action="/action_page.php" method="get">
-    First name: <input type="text" name="fname"><br>
-    Last name: <input type="text" name="lname"><br>
+    Nombre:</label><input type="text" name="fname"><br>
+    Apellido:</label><input type="text" name="lname"><br>
+  
+    <!-- El input que está seleccionado por defecto tiene que mostrarse con un borde color coral y su label asociado también. -->
+    <input type="radio" name="season" id="spring">
+    <label for="spring">Primavera</label>
+    <input type="radio" name="season" id="summer" checked>
+    <label for="summer">Verano</label>
+    <input type="radio" name="season" id="fall">
+    <label for="fall">Otoño</label>
+    <input type="radio" name="season" id="winter">
+    <label for="winter">Invierno</label>
     <input type="submit" value="Submit">
   </form>
   
