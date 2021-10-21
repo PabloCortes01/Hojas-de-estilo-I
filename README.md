@@ -25,3 +25,7 @@ span .primero{}
 **6. Revisa la documentación sobre las pseudo-clases existentes en la siguiente página https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes y haz uso de al menos 5 pseudo-clases añadiendo los elementos y estilos necesarios al código anterior.**
 
 **7. Dado el fichero HTML pseudo-clases-II, crea los estilos necesarios para que se muestre como se ve en el fichero resultado-pseudo-clases.png.**
+
+**8. Dado el fichero pseudo-elementos.html aplica los estilos que se describen en sus comentarios.**
+
+**9. Incluye en el fichero anterior un formulario con varios elementos que puedan contener un placeholder y aplícale estilos a estos de modo que se muestren de color naranja.
