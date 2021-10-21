@@ -7,6 +7,8 @@
   <title>Pseudo-clases</title>
 </head>
 <body>
+  <!-- TODO: Todos lo que no sea un h1 debe tener el color de fuente #336699 -->
+  <h1>Pseudo-clases</h1>
   <a href="#">Este enlace cuando se pasa por encima es rojo, cuando se clica se debe poner azul, cuando se ha clicado debe estar en lila y cuando está en reposo es rosa.</a>
   
   <p>Este texto debe ser azul.</p>
@@ -25,7 +27,7 @@
     Nombre:</label><input type="text" name="fname"><br>
     Apellido:</label><input type="text" name="lname"><br>
   
-    <!-- El input que está seleccionado por defecto tiene que mostrarse con un borde color coral y su label asociado también. -->
+    <!-- TODO: El input que está seleccionado por defecto tiene que mostrarse con un borde color coral y su label asociado también. -->
     <input type="radio" name="season" id="spring">
     <label for="spring">Primavera</label>
     <input type="radio" name="season" id="summer" checked>
@@ -34,6 +36,13 @@
     <label for="fall">Otoño</label>
     <input type="radio" name="season" id="winter">
     <label for="winter">Invierno</label>
+     
+    <!-- TODO: El input se debe mostrar con un borde verde siempre que el valor introducido esté dentro del rango. -->
+    <input type="number" min="5" max="10" value="7">
+
+    <!-- TODO: El input se debe mostrar con un borde rojo siempre que el valor introducido no sea un email válido. -->
+    <input type="email" value="EjemploNoValido">
+
     <input type="submit" value="Submit">
   </form>
   
